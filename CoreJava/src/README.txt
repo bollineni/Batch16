@@ -12,3 +12,6 @@
  goto http://www.eclipse.org/downloads/
  and download Eclipse IDE for Java EE Developers
 				Eclipse IDE for Java EE Developers,
+
+3) Check out the files from git repository using the below link
+	https://github.com/jayramrout/Batch16.git
