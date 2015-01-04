@@ -19,3 +19,13 @@
 
 Recommended Book
 	The Complete Reference
+	
+email : jayram.h2kinfosys@gmail.com
+	Subject : Batch 16 Student
+	NOTE : make sure u send email using ur gmail id.
+	
+Course Duration:
+	Will be around 55-60 sessions
+	initially we will have having 3 session a week with 1 hr each.
+	later we will be having 3 session a week with 1 1/2 hr session each.
+	http://www.h2kinfosys.com/courses/java-online-training-course-details
