@@ -1,7 +1,8 @@
 public class HelloWorld {
 	public static void main(String[] args) {
+		/**
+		 * Any this inside a double quote is a String
+		 */
 		System.out.println("Hello Folks....");
-		System.out.print("Hello Again..."); 
-		System.out.println("");  // Ctrl + Space	
 	}
 }
