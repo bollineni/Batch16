@@ -38,7 +38,7 @@ public class BooleanLogicalOperator {
 		System.out.println(name);
 		
 		String name2 = "";
-		
+		 //
 		if(a==b){
 			name2 = "ValueA";
 		}else {
