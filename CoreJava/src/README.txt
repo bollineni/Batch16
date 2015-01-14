@@ -35,3 +35,7 @@ Course Duration:
 			
 Popular IDE's
 	Eclipse , NetBeans , Intellij
+	
+	
+==Jan 13th===
+To format your code : ctrl+shift+F

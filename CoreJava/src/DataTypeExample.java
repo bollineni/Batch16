@@ -4,25 +4,17 @@ public class DataTypeExample {
 	public static void main(String[] args) {
 		String firstName = "Atul";
 		String lastName = "Sharma";
+
+		System.out.println(firstName + "   " +lastName);
 		
-		int age = 25;
+		int a = 10;
+		System.out.println(a);
+//		a = a+2;
+		a += 2;
 		
-		byte myage = 127;
+//		a = a-1;
+//		a -= 1;
 		
-		float mark = 23.9f;
-		
-		char c = 'a';
-		
-		boolean isATutor = true;
-		
-		int valueOne = 12;
-		int valueTwo = 3;
-		int finalValue = valueOne + valueTwo;
-		
-//		System.out.println(); // sysout and use ctrl +space
-//		System.out.println("DataTypeExample.main()"); // systrace and use ctrl +space
-		//SOP
-		System.out.println(valueOne + (valueTwo + " Jayram"));
-		
+		System.out.println(a);
 	}
 }
