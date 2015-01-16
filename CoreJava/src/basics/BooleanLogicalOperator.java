@@ -1,3 +1,4 @@
+package basics;
 public class BooleanLogicalOperator {
 	// int b = 20; // instance variable
 	static int c = 300; // class variable
