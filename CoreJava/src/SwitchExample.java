@@ -1,6 +1,6 @@
 public class SwitchExample {
 	public static void main(String[] args) {
-		
+		System.out.println("Hello, Word!"); 
 		int age = Integer.parseInt(args[0]);
 		int mark = Integer.parseInt(args[1]);
 		
