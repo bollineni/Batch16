@@ -1,8 +1,12 @@
-Question :
-	Take the below array, and use the for loop to print all the values;
-
-String [][] names = {{"FN1","LN1"},
-							 {"FN2","LN2"},
-							 {"FN3","LN3"}};
-							 
-								 
+Garbage Collection Example
+	create a class with name Computer
+		-> Create a constructor with a single parameter
+			when u create , print the value
+			
+	in that override the finalize method
+		sop("destroying " + i); // i is the instance variable
+	Create a Client Program
+		use a for loop (for(;;)) or use a while(true)
+		{
+			new Computer(i);
+		}

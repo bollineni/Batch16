@@ -1,0 +1,8 @@
+Question :
+	Take the below array, and use the for loop to print all the values;
+
+String [][] names = {{"FN1","LN1"},
+							 {"FN2","LN2"},
+							 {"FN3","LN3"}};
+							 
+								 

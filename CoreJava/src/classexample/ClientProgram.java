@@ -1,10 +1,11 @@
 package classexample;
 
+import pojo.Address;
+
 public class ClientProgram {
 	String houseAddress =" United States";
 	
 public static void main(String[] args) {
-		
 		Person perOne = new Person();
 		perOne.name = "Raj";
 		perOne.ssn = 5678;
