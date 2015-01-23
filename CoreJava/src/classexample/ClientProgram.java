@@ -6,7 +6,7 @@ public class ClientProgram {
 	String houseAddress =" United States";
 	
 public static void main(String[] args) {
-		Person perOne = new Person();
+		Person perOne = new Person("Raj");
 		perOne.name = "Raj";
 		perOne.ssn = 5678;
 		perOne.height = 5;
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 
 		perOne.addr = address;
 		
-		Person perTwo = new Person();
+		Person perTwo = new Person("Rahul");
 		perTwo.name = "Rahul";
 		perTwo.ssn = 5678;
 		perTwo.height = 5;
