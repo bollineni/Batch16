@@ -1,0 +1,15 @@
+Question :
+	Create a Student Hierarchy
+		Chemistry
+		Math
+		Science
+		
+		Take common features under a abstract class called Student
+			All other specific features goes to the specif classes like
+				ChemistryStudent
+				abstract MathStudent
+					AlgebraMathStudent
+					GeometryMathStudent
+				ScienceStudent
+				
+Client Program create instances of every class and try to access the methods of each program
