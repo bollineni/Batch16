@@ -1,6 +1,6 @@
 package inheritance;
 
-public class NonITEmployee extends Employee {
+public class NonITEmployee extends Employee implements Singable {
 	
 	private boolean comeEarly;
 	
@@ -8,9 +8,9 @@ public class NonITEmployee extends Employee {
 		return comeEarly;
 	}
 
-	public void setComeEarly(boolean comeEarly) {
+	/*public void setComeEarly(boolean comeEarly) {
 		this.comeEarly = comeEarly;
-	}
+	}*/
 
 	public NonITEmployee(String name , int id) {
 		super(name, id);
@@ -28,5 +28,11 @@ public class NonITEmployee extends Employee {
 	@Override
 	public void totalTime() {
 		System.out.println("Mininum 9 Hours");
+	}
+
+	@Override
+	public void singingSkills() {
+		System.out.println("Non IT Emp : I sing during my leasure time....");
+		
 	}
 }

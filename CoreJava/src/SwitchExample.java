@@ -1,3 +1,5 @@
+import inheritance.NonITEmployee;
+
 public class SwitchExample {
 	public static void main(String[] args) {
 		System.out.println("Hello, Word!"); 
@@ -28,5 +30,8 @@ public class SwitchExample {
 			System.out.println("Not sure");
 			break;
 		}
+		NonITEmployee nonItEmp = new NonITEmployee("Roja", 104);
+		nonItEmp.efficientNonItEmp();
+		nonItEmp.wearTie();
 	}
 }

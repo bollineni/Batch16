@@ -1,14 +1,17 @@
 package inheritance;
 
+import pojo.Address;
+
 public abstract class Employee {
 	private String name;
 	private int id;
 	private String department;
+	private Address addr;
 	
 	public Employee(String name , int id) {
 		this.name = name;
 		this.id = id;
-		System.out.println("Employee.Employee()");
+//		System.out.println("Employee.Employee()");
 	}
 	
 	public String getName() {
@@ -39,4 +42,5 @@ public abstract class Employee {
 	}
 	
 	public abstract void totalTime();
+	
 }

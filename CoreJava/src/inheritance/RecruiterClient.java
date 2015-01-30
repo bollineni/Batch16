@@ -3,21 +3,24 @@ package inheritance;
 public class RecruiterClient {
 
 	public static void main(String[] args) {
+		/*
+		 * Below is commented bcoz ITEmployee is an abstract class now
+		 */
 		/*ITEmployee itEmp = new ITEmployee("Raj", 100);
 		itEmp.programmingSkills();
 		itEmp.wearTie();
-		itEmp.totalTime();
+		itEmp.totalTime();*/
 		
 		NonITEmployee nonItEmp = new NonITEmployee("Roja", 104);
 		nonItEmp.efficientNonItEmp();
 		nonItEmp.wearTie();
 		nonItEmp.employeeDetails();
-		nonItEmp.totalTime();*/
+		nonItEmp.totalTime();
 		
-		InfrastrcutureProgrammer ip = new InfrastrcutureProgrammer("TestOne",67);
+		DesktopAdmin ip = new DesktopAdmin("TestOne",67);
 		System.out.println(ip.getOsExpertise());
 		
-		InfrastrcutureProgrammer windowsIp = new InfrastrcutureProgrammer("TestOne",67, "Windows");
+		DesktopAdmin windowsIp = new DesktopAdmin("TestOne",67, "Windows");
 		System.out.println(windowsIp.getOsExpertise());
 	}
 }
