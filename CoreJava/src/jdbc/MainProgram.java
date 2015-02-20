@@ -17,7 +17,7 @@ public class MainProgram {
 		}
 	}
 	
-	public List<Emp> getAllEmployees() {
+	public static List<Emp> getAllEmployees() {
 		// List <Emp> emps = new ArrayList<Emp>();
 		// select query
 		// result set
